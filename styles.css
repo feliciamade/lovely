@@ -219,3 +219,21 @@ i {
     font-size: 15px;
     text-transform: lowercase;
 }
+
+
+.input-container {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.input-field {
+    padding: 10px;
+    width: 200px;
+    padding: 10px 100px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    border:1.3px rgba(135, 152, 227, 0.354) solid;
+  }
+
+
