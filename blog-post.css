@@ -3,7 +3,8 @@
     border-radius: 10px;
     height:300px;
     width:80%;
-    background-color: #f4f8ff ;   
+    background-color: #f4f8ff ; 
+    position: relative;  
 }
 
 main {
@@ -34,9 +35,25 @@ main {
 }
 
 
+
 .author-image {
     background-color: #f4f8ff ;  
     width:40px;
     height:40px;
     border-radius: 50%;
+}
+
+
+.nextpost {
+    position: absolute;
+    right:-20px;
+    bottom: -40px;
+}
+
+.nextpost a {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    gap:6px;
+    color:#433875;
 }
