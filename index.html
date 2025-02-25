@@ -25,7 +25,7 @@
                 <a href="#" >Resources <img src="images/down-arrow.svg"></a>
                 <a href="get-invovled.html">Get Invovled <img src="images/down-arrow.svg"></a>
                 <a href="blog.html" >Blog</a>
-                <button>Donate</button>
+                <button onClick="(donateAlert)" id="donateAlert">Donate</button>
             </div>
         </nav>
 
@@ -99,7 +99,6 @@
        
     </main>
    
-
     <footer>
 
         <div class="footer">
@@ -144,6 +143,27 @@
         </div>
     
     </footer>
+
+    
+    <div id="customAlert">
+    <i class="fa-solid fa-heart"></i>
+    <h3>Make a Difference: <br>Donate Today</h3>
+    <p>Your generous donation is a beacon of hope, and we are profoundly grateful</p>
+    <button onclick="hideAlert()">Okay</button>
+    </div>
+
+
+    <script>
+        function showAlert(message) {
+        
+            document.getElementById("customAlert").style.display = "block";
+        }
+    
+        function hideAlert() {
+            document.getElementById("customAlert").style.display = "none";
+        }
+    </script>
+
 
 </body>
 </html>

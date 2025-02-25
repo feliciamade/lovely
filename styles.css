@@ -316,3 +316,56 @@ i {
     border-radius: 30px;
     border:1.3px rgba(135, 152, 227, 0.354) solid;
   }
+
+
+  #customAlert {
+    background-image: url(images/alert-05.jpg);
+    background-size: cover;
+    display:flex;
+    gap:10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position:fixed; 
+    top:50%; 
+    left:50%; 
+    transform:translate(-50%, -50%); 
+    padding:30px;
+    border:none;
+    height:250px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: #f1f4fd ;
+    box-shadow: 2px 2px 5px rgba(134, 141, 181, 0.249);
+  }
+  #customAlert p {
+    width:60%;
+    margin: 0px;
+    font-weight: 300;
+  }
+
+  #customAlert h3 {
+    margin: 0px;
+    line-height: 20px;
+  }
+
+  #customAlert i {
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+
+
+
+  #customAlert button {
+    padding: 5px 25px;
+    background-color:#ff9bc8;
+    color:white;
+    border:none;
+    border-radius: 20px;
+    font-family: "Nunito", serif;
+    text-transform: lowercase;
+    cursor: pointer;
+    font-size:14px;
+}
+
