@@ -1,0 +1,42 @@
+
+.blog {
+margin-top: 50px;
+}
+
+.posts {
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: repeat(1);
+    grid-template-columns: repeat(3, 1fr);   
+    gap: 1px; 
+      }
+
+
+article {
+    padding:30px;
+    
+}
+
+article .image {
+   
+    background-color: #f4f8ff ;
+    width:300px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.article-1 .image  {
+    background-image: url(images/menstrual.webp);
+    background-size: cover;
+}
+article p {
+    font-size: 14px;
+}
+
+.blog h1 {
+   margin-left: 30px;
+   border-bottom: 0.2px rgb(202, 199, 227) solid;
+   line-height: 70px;
+   width:93%;
+}
