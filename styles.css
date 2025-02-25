@@ -34,15 +34,16 @@ h5,h6 {
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 400;
+    line-height: 35px;
 }
 
 p {
     margin:0px;
     padding:0px;
     color:#2c345e;
-    ;
+    font-size: 16.5px;
 }
 
 a {
@@ -53,9 +54,13 @@ a {
     font-weight: 400;
 }
 
+a:hover {
+    color:#ff93c4;
+}
+
 .links button {
     padding: 5px 20px;
-    background-color:#fab5d4;
+    background-color:#ff9bc8;
     color:white;
     border:none;
     border-radius: 20px;
@@ -63,7 +68,9 @@ a {
     text-transform: lowercase;
 }
 
-
+.links button:hover {
+    background-color:#ff93c4;
+}
 .section {
     margin: 0px 0px 42px 0px;
     border-radius: 20px;
@@ -114,8 +121,7 @@ main {
 
 .hero-content button {
     padding: 10px 25px;
-    background-color:#fab5d4;
-    color:white;
+    background-color:#ff9bc8;
     border:none;
     border-radius: 30px;
     font-family: "Nunito", serif;
@@ -123,18 +129,24 @@ main {
     align-self: flex-start; 
     font-size: 15px;
     text-transform: lowercase;
+    color:white;
 }
 
+.hero-content button:hover {
+    background-color:#ff93c4;
+}
+
+
 .hero-content p {
-    max-width:420px;
-    font-size: 17px;
+    max-width:410px;
+    font-size: 16.5px;
     line-height: 25px;
     font-weight: 400;
 }
 
 i {
     font-size: 17px;
-    color:#fab5d4;
+    color:#ff9bc8;
 }
 
 .service {
@@ -172,7 +184,7 @@ i {
 
   .carousel i {
     color:white;
-    background-color:#fab5d4;
+    background-color:#ff9bc8;
     border-radius: 50%;
     padding:10px;
     font-size: 15px;
@@ -210,7 +222,7 @@ i {
 
 .section button {
     padding: 10px 25px;
-    background-color:#fab5d4;
+    background-color:#ff9bc8;
     color:white;
     border:none;
     border-radius: 30px;
@@ -218,6 +230,10 @@ i {
     letter-spacing: 1px;
     font-size: 15px;
     text-transform: lowercase;
+}
+
+.section button:hover {
+    background-color:#ff93c4;
 }
 
 
