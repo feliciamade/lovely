@@ -61,6 +61,15 @@ a:hover {
 .active {
     color:#ff9bc8;
 }
+
+a img {
+    width:11px;
+    height:11px;
+}
+
+a img:hover {
+    fill:#ff9bc8;
+}
 .links button {
     padding: 5px 20px;
     background-color:#ff9bc8;
@@ -164,7 +173,7 @@ i {
 }
 .services h1 {
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 .service-grid {
