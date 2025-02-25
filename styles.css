@@ -78,6 +78,7 @@ a img:hover {
     border-radius: 20px;
     font-family: "Nunito", serif;
     text-transform: lowercase;
+    cursor: pointer;
 }
 
 .links button:hover {
@@ -107,6 +108,7 @@ main {
 .hero {
     display: flex;
     justify-content: center;
+    
     flex:1;
     
 }
@@ -123,6 +125,7 @@ main {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    margin-left: 10px;
     
 }
 
@@ -142,6 +145,7 @@ main {
     font-size: 15px;
     text-transform: lowercase;
     color:white;
+    cursor: pointer;
 }
 
 .hero-content button:hover {
@@ -200,6 +204,7 @@ i {
     border-radius: 50%;
     padding:10px;
     font-size: 15px;
+    cursor: pointer;
   }
 
   footer {
@@ -235,6 +240,7 @@ i {
   .social-media {
     display: flex;
     gap:15px;
+    cursor: pointer;
   }
 
 
@@ -251,8 +257,12 @@ i {
 
   footer i {
     margin-right: 6px;
-    font-size: 20px;
+    font-size: 22px;
     color:#ff9bc8;
+  }
+
+  footer p {
+    font-size: 15px;
   }
 
 .section {
@@ -283,6 +293,7 @@ i {
     letter-spacing: 1px;
     font-size: 15px;
     text-transform: lowercase;
+    cursor: pointer;
 }
 
 .section button:hover {

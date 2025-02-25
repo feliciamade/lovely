@@ -17,6 +17,10 @@ article {
     
 }
 
+img {
+    margin: 0px;
+}
+
 article .image {
    
     background-color: #f4f8ff ;
@@ -29,7 +33,18 @@ article .image {
 .article-1 .image  {
     background-image: url(images/menstrual.jpg);
     background-size: cover;
+    margin: 0px;
 }
+
+.article-1 .image:hover  {
+    opacity: 30%;
+    cursor: pointer;
+}
+
+article h4 {
+    margin-bottom: 5px;
+}
+
 article p {
     font-size: 14px;
 }
